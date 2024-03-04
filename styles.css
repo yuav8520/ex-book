@@ -1,0 +1,15 @@
+table{
+    margin-top: 10dvh;
+    margin-left: 5dvw;
+    margin-right: 5dvw;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+card{
+padding-top: 5dvh;
+padding-bottom: 5dvh;
+padding-left: 3dvw;
+padding-right: 3dvw;
+border-color: black;
+}
