@@ -1,13 +1,4 @@
 const myLibrary=[];//decerations
-const theHobbit= new Book('The Hobbit', 'J.R.R Tolien','295 pages','not read yet')//place holder books.
-addBookToLIbrary(theHobbit)
-const asafTu=new Book('Big Poop', 'Asaf Tzubery','100 pages','read');
-addBookToLIbrary(asafTu)
-const lol=document.getElementById('lol');//these lines are the web page
-const table=document.createElement('table');
-const add=document.getElementById('add');
-lol.append(table);
-//functions
 class Book  {
     constructor(title,author,pages,read){
     this.title=title
@@ -17,6 +8,16 @@ class Book  {
     }
 
 }
+const theHobbit= new Book('The Hobbit', 'J.R.R Tolien','295 pages','not read yet')//place holder books.
+addBookToLIbrary(theHobbit)
+const asafTu=new Book('Big Poop', 'Asaf Tzubery','100 pages','read');
+addBookToLIbrary(asafTu)
+const lol=document.getElementById('lol');//these lines are the web page
+const table=document.createElement('table');
+const add=document.getElementById('add');
+lol.append(table);
+//functions
+
 
 function addBookToLIbrary(book){
 myLibrary.push(book);
