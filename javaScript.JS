@@ -8,11 +8,13 @@ const table=document.createElement('table');
 const add=document.getElementById('add');
 lol.append(table);
 //functions
-function Book (title,author,pages,read) {
+class Book  {
+    constructor(title,author,pages,read){
     this.title=title
     this.author=author
     this.pages=pages
     this.read=read
+    }
 
 }
 
@@ -47,7 +49,6 @@ function showInfo(book) { //this is how we make cards
    card.append(Delete);
    table.append(card);
    Delete.addEventListener('click',destroy);
-   
    }
 
 
